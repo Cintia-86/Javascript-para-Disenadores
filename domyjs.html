@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset=""UTF-8>
+	<title>JS para diseñadores. tipos de datos basicos</title>
+
+	<!--Bootstrap 3-->
+	<link rel="stylesheet" href="https://maxcdn.bootstappcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<style type="text/css" media="screen">
+		.destacado {
+			color: #fc0;
+		}
+	</style>	
+<head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1 id="nombre">Nombre del detalle</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus neque eu ante aliquet, vel pellentesque tortor hendrerit.</p>
+				<blockquote>
+					<p id="descipcion">Esto es una descripción.</p>
+					<footer>
+					<script>
+					var fecha = new Date();
+					var dia = fecha.getDate();
+					var mes = fecha.getMonth();
+					var año = fecha.getFullYear();
+					document.write(dia+''+mes+''+año);
+				    </script>
+			        </footer>
+			    </blockquote>    
+	     	</div>
+	    </div>
+	</div>
+	
+	<script>
+		var elemento;
+		var descripción;
+
+		descripción = document.getElementById('descripción').innnerHTML;
+		console.log(descipcion);
+		descripción += 'Modificada.';
+		document.getElementById('descripción').innerHTML = descripción;
+
+		elemento = document.querySelector('h1');
+		elemento className += 'destacado';
+		
+
+		$('#descripción')
+		document.getElementById('descripción')
+
+		$('h1')
+		document.getElementByTagName('h1')
+
+		$('p.nombre-clase')
+		document.querySelectorAll('p.nombre-clase')
+
+		/*
+		document.getElementByClassName('nombre-clase');
+		document.getElementByTagName('etiqueta');
+		element.querySelector('p.nombre-clase');     // devuelve el primero, IE8+
+		element.querySelectorAll('p.nombre-clase');     // devuelve el todos, IE8+
+		+/ 	
+
+
+
+	</script>
+</body>
+</html> 

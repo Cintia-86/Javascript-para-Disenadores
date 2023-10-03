@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset=""UTF-8>
+	<title>JS para diseñadores. tipos de datos basicos</title>
+
+	<!--Bootstrap 3-->
+	<link rel="stylesheet" href="https://maxcdn.bootstappcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+	     	</div>
+	    </div>
+	</div>
+	
+	<script>
+		var numeros = [1, 2, 5, 8, 9, 7];
+		var frutas = ['naranja', 'plátano', 'pera', 'manzana'];
+		var listado = new Array(); // listado = [];
+		var elemento;
+		var versionTexto;
+		var versionArray;
+		var nombre SEPARADOR = '-----------------';
+
+		console.log('Numeros: '+ numeros); 
+		console.log('Frutas: '+frutas);
+		console.log(SEPARADOR);
+		
+		console.log('Primer números: ' +numeros[0]);
+		console.log('Tercera fruta: ' +frutas[2]);
+		console.log('Cantidad de frutas: '+frutas.length);
+		console.log('Posición de la manzana: '+frutas.indexOf('manzana'));
+		console.log(SEPARADOR);
+
+		//Insertar elementos por el final 
+		numeros.push(4);// el método unshift lo hace po el inicio
+		console.log('Tras insertar: '+numeros);
+
+		elemento= 'granada';
+		frutas.push(elemento);
+		console.log('Tras insertar: '+frutas);
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset=""UTF-8>
+	<title>JS para diseñadores. tipos de datos basicos</title>
+
+	<!--Bootstrap 3-->
+	<link rel="stylesheet" href="https://maxcdn.bootstappcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+	     	</div>
+	    </div>
+	</div>
+	
+	<script>
+		var persona_1 = {
+			nombre: 'Pedro',
+			apellido: 'Picapiedra',
+			edad: 48,
+			casado: true
+		};
+		var SEPARADOR = '-----------------';
+
+		var persona_2 = new Objet(); // persona_2 = {};
+		persona_2.nombre = 'Pablo';
+		persona_2.apellido = 'Mármol';
+		persona_2.edad = 44;
+ 		persona_2.casado = true;
+
+		console.log('Persona 1: '+persona_1); 
+		console.log('Persona 2: ' +persona_2.edad);
+		console.log(SEPARADOR);
+
+		// Añadir proiedades o modificarlas
+		persona_1.profesion = "Fontanero";
+		persona_2.edad = 45;
+		console.log(persona_1);
+		console.log(persona_2);
+		console.log(SEPARADOR);
+
+	</script>
+</body>
+</html>

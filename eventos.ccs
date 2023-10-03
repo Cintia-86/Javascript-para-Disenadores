@@ -1,0 +1,9 @@
+#calcula {
+	-webkit-transitioon: all .3s linear 0;
+	-o-transitioon: all .3s linear 0;
+	transitioon: all .3s linear 0;
+}
+
+.sobre {
+	margin-left: 20px;
+}
